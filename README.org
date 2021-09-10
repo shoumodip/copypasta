@@ -1,13 +1,6 @@
 * GNU/Linux Copypasta
 [[./img/demo.png]]
 
-An interactive [[https://shoumodip.github.io/copypasta/][webpage]] for quickly generating ~GNU/xyz~ copypastas.
+An interactive [[https://shoumodip.github.io/copypasta/][website]] for quickly generating ~GNU/xyz~ copypastas.
 The clipboard icon in the input field copies the current state of the
 copypasta to the clipboard.
-
-* Quick Start
-#+begin_src console
-$ git clone https://github.com/shoumodip/copypasta
-$ cd copypasta
-$ chromium index.html # Use your browser of choice
-#+end_src
