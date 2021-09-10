@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>GNU Copypasta</title>
+
+        <script type="text/javascript">
+         function updateAnchors(value) {
+             for (const anchor of document.getElementsByClassName("anchor")) {
+                 anchor.innerHTML = value;
+             }
+         }
+
+         function copyParagraph() {
+             let copyPasta = "";
+
+             for (const paragraph of document.getElementsByTagName("p")) {
+                 copyPasta += paragraph.innerText + "\n\n";
+             }
+
+             navigator.clipboard.writeText(copyPasta);
+         }
+        </script>
+
+        <style type="text/css">
+         html {
+             color: #9F9F9F;
+             background-color: #3F3F3F;
+             padding: 75px 300px;
+             font-size: 18px;
+         }
+
+         h1 {
+             color: #DCDCCC;
+             text-align: center;
+         }
+
+         input {
+             color: #DCDCCC;
+             background-color: #2B2B2B;
+             border-width: 0px;
+             font-size: large;
+             width: 100%;
+         }
+
+         button {
+             color: #DCDCCC;
+             background-color: #2B2B2B;
+             border-width: 0px;
+             font-size: large;
+         }
+
+         .inputContainer {
+             display: flex;
+         }
+
+         .inputField {
+             flex: 1;
+         }
+
+         .anchor {
+             color: #94BFF3;
+             font-weight: bold;
+         }
+        </style>
+    </head>
+    <body>
+        <h1>GNU/Linux Copypasta</h1>
+
+        <div class="inputContainer">
+            <input type="text" class="inputField" value="Linux" oninput="updateAnchors(this.value)">
+            <button onclick="copyParagraph()" title="Copy to Clipboard"><img src="img/clipboard.png" height="16px"></button>
+        </div>
+
+        <p>
+            I'd just like to interject for a moment. What you're refering
+            to as <span class="anchor">Linux</span>, is in fact,
+            GNU/<span class="anchor">Linux</span>, or as I've recently taken
+            to calling it, GNU plus <span class="anchor">Linux</span>.
+            <span class="anchor">Linux</span> is not an operating system
+            unto itself, but rather another free component of a fully
+            functioning GNU system made useful by the GNU corelibs, shell
+            utilities and vital system components comprising a full OS as
+            defined by POSIX.
+        </p>
+
+        <p>
+            Many computer users run a modified version of the GNU system
+            every day, without realizing it. Through a peculiar turn of
+            events, the version of GNU which is widely used today is often
+            called <span class="anchor">Linux</span>, and many of its users
+            are not aware that it is basically the GNU system, developed by
+            the GNU Project.
+        </p>
+
+        <p>
+            There really is a <span class="anchor">Linux</span>, and these
+            people are using it, but it is just a part of the system they
+            use. <span class="anchor">Linux</span> is the kernel: the program
+            in the system that allocates the machine's resources to the other
+            programs that you run. The kernel is an essential part of an
+            operating system, but useless by itself; it can only function in
+            the context of a complete operating system. <span class="anchor">Linux</span>
+            is normally used in combination with the GNU operating system:
+            the whole system is basically GNU with <span class="anchor">Linux</span>
+            added, or GNU/<span class="anchor">Linux</span>. All the so-called
+            <span class="anchor">Linux</span> distributions are really
+            distributions of GNU/<span class="anchor">Linux</span>!
+        </p>
+    </body>
+</html>
