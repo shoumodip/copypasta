@@ -1,8 +1,9 @@
 * GNU/Linux Copypasta
 [[./img/demo.png]]
 
-An interactive webpage for quickly generating Richard Stallman
-copypastas.
+An interactive webpage for quickly generating ~GNU/xyz~
+copypastas. The clipboard icon in the input field copies the current
+state of the copypasta to the clipboard.
 
 * Quick Start
 #+begin_src console
